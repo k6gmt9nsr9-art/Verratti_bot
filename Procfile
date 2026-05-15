@@ -1,0 +1,1 @@
+worker: python verratti_bot.py
