@@ -5,7 +5,6 @@ from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import Application, CommandHandler, CallbackQueryHandler, ContextTypes
 
 logging.basicConfig(level=logging.
-
 BOT_TOKEN = os.environ.get("BOT_TOKEN")
 ADMIN_IDS = [int(os.environ.get("ADMIN_ID", "0"))]
 pronos = []
