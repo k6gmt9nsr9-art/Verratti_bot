@@ -11,7 +11,7 @@ pronos = []
 abonnes = set()
 
 def is_admin(uid):
-return uid in ADMINS
+    return uid in ADMINS
 
 def format_prono(p):
 s = {"en_cours": "En cours", "gagnant": "GAGNANT", "perdant": "PERDANT"}.get(p["statut"], "?")
